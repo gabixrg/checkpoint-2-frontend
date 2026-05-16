@@ -59,7 +59,7 @@ nav a{
   font-weight: 600;
 }
 
-/* HERO */
+
 
 .hero{
   height: 90vh;
@@ -134,7 +134,6 @@ nav a{
   border-radius: 25px;
 }
 
-/* PRODUTOS */
 
 .produtos{
   padding: 100px 8%;
@@ -213,4 +212,54 @@ nav a{
   font-weight: 600;
 
   cursor: pointer;
+}
+
+.funciona{
+  padding: 100px 8%;
+
+  background: #fff1f5;
+
+  text-align: center;
+}
+
+.funciona h2{
+  font-size: 45px;
+
+  margin-bottom: 60px;
+}
+
+.steps{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step{
+  width: 250px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.step h3{
+  width: 60px;
+  height: 60px;
+
+  margin: 0 auto 20px;
+
+  border-radius: 50%;
+
+  background: #e75480;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
 }
