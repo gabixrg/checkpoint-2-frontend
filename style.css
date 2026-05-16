@@ -263,3 +263,63 @@ nav a{
 
   font-size: 22px;
 }
+
+.cta{
+  height: 250px;
+
+  background: linear-gradient(135deg, #ff7aa2, #e75480);
+
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 8%;
+}
+
+.cta h2{
+  font-size: 45px;
+
+  margin-bottom: 10px;
+}
+
+.cta p{
+  font-size: 18px;
+}
+
+.cta button{
+  padding: 18px 35px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: white;
+  color: #e75480;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+
+footer{
+  background: #3d2a2a;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 50px;
+}
+
+footer h2{
+  margin-bottom: 15px;
+}
+
+.copy{
+  margin-top: 20px;
+
+  color: #ddd;
+}
+
